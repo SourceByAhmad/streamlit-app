@@ -1,0 +1,19 @@
+1. Create a new file in your VS Code sidebar named app.py and paste this starter code into it:python
+import streamlit as st
+
+st.title("My First Streamlit App 🚀")
+st.write("Hello GitHub! This application is running directly from my repository.")
+
+2. Test that it runs locally by entering:powershell
+streamlit run app.py
+Use code with caution.
+
+Step 4: Push Your Code Back to GitHub
+Once you are happy with how it looks in your browser, stop the terminal player (Ctrl + C) and send your brand new files up to your online GitHub account:
+1. Create a tracking text file of your requirements (this tells GitHub/Streamlit what packages your app needs to run):powershell
+pip freeze > requirements.txt
+Use code with caution.
+2. Stage, commit, and push your work:powershell
+git add app.py requirements.txt
+git commit -m "Added initial Streamlit application files"
+git push origin main
